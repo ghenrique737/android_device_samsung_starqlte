@@ -10,3 +10,6 @@ $(call inherit-product, device/samsung/sdm845-common/common.mk)
 # Display
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=420 \
+
+
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
