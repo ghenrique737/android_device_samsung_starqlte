@@ -10,7 +10,7 @@ include device/samsung/sdm845-common/BoardConfigCommon.mk
 DEVICE_PATH := device/samsung/starqlte
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 560
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_starqlte_defconfig
